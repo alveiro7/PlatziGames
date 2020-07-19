@@ -2,7 +2,7 @@ extend componentes/plantilla.pug
 block contenidos
 
         section.intro
-            .intro__imagen: img(src="images/imagen.png")
+            .intro__imagen: img(src="https://instagram.fbaq6-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/107329701_139920314403550_1512655795623358985_n.jpg?_nc_ht=instagram.fbaq6-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=NLmERnP-6XYAX-dIQnt&oh=a93f41fc8a4334cbeb3958b09464e105&oe=5F3705D0")
             .intro__contenido
                 h2 #{titulos[0]}
                 p
@@ -13,6 +13,6 @@ block contenidos
                     span Proin sed urna quis interdum rutrum. Integer rhoncus finibus nunc, ac porttitor ex dapibus ac.
                 a.boton Leer Mas
         main.contenido
-            +caja('imagen.png',titulos[1],'Lorem ipsum dolor sit amet')
-            +caja('imagen.png',titulos[1],'Lorem ipsum dolor sit amet')
-            +caja('imagen.png',titulos[3],'Lorem ipsum dolor sit amet')
+            +caja(imagenes[0],titulos[1],'Lorem ipsum dolor sit amet')
+            +caja(imagenes[1],titulos[1],'Lorem ipsum dolor sit amet')
+            +caja(imagenes[2],titulos[3],'Lorem ipsum dolor sit amet')
