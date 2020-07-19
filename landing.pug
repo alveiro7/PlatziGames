@@ -13,6 +13,5 @@ block contenidos
                     span Proin sed urna quis interdum rutrum. Integer rhoncus finibus nunc, ac porttitor ex dapibus ac.
                 a.boton Leer Mas
         main.contenido
-            +caja(imagenes[0],titulos[1],'Lorem ipsum dolor sit amet')
-            +caja(imagenes[1],titulos[1],'Lorem ipsum dolor sit amet')
-            +caja(imagenes[2],titulos[3],'Lorem ipsum dolor sit amet')
+            each titulo in titulos
+                +caja(imagenes[1],titulo,'Lorem ipsum dolor sit amet')
